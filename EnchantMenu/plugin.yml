@@ -1,0 +1,19 @@
+name: EnchantMenu
+author: schegar
+version: 4.1
+api-version: 1.13
+
+softdepend: [Vault]
+
+main: de.schegar.enchantmenu.EnchantMenu
+
+commands:
+  em:
+    description: Opens the EnchantMenu
+    usage: /em <category>
+    
+permissions:
+  em.open:
+    description: Permission to open the EnchantMenu
+  em.reload:
+    description: Permission to reload the plugin
